@@ -1,0 +1,5 @@
+https://www.pivotaltracker.com/n/projects/2444925/stories/172475739
+
+the below are the credentials for zeplin portal 
+username:edurekafullstackdesign@gmail.com and 
+password:edurekafullstackdesign@123
