@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>Index Page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <div class="circle">
+                    <span class="e">
+                        e!
+                    </span>
+                </div>
+                <nav>
+                    <ul>
+                        <li>Login</li>
+                        <li><span class="account">Create an account</span></li>
+                    </ul>
+                </nav>
+                <div class="clearfix"></div>           
+            </header>
+            <div class="rectangle"> 
+                <span>Breakfast Places in Mumbai</span>
+            </div>
+            <main>
+                <div class="left">
+                    <h1>Filters</h1>
+                        <div class="filter">
+                            <label >Select Location</label><br>
+                                <select id="dropdown" name="location">
+                                    <option  selected>Select the location</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="delhi">Delhi</option>
+                                </select>
+                        </div>
+                        <div class="filter"><br><br>
+                            <label>Cuisine</label><br>
+                                <input class="largecb" type="checkbox" name="cuisine" value="north indian"><span class="ftext">North Indian</span> </input><br>
+                                <input class="largecb" type="checkbox" name="cuisine" value="south indian" checked><span class="ftext">South Indian</span></input><br>
+                                <input class="largecb" type="checkbox" name="cuisine" value="chinese"checked><span class="ftext">Chinese</span></input><br>
+                                <input class="largecb" type="checkbox" name="cuisine" value="fast food"><span class="ftext">Fast Food</span></input><br>
+                                <input class="largecb" type="checkbox" name="cuisine" value="street food"><span class="ftext">Street Food</span></input><br>
+                        </div>
+                        <div class="filter"><br><br>
+                            <label>Cost For Two</label><br>
+                                <input class="largecb" type="radio" name="cost" value="500"><span class="ftext">Less Than &#8377; 500</span></input><br>
+                                <input class="largecb" type="radio" name="cost" value="1000"><span class="ftext">&#8377; 500 to &#8377; 1000</span></input><br>
+                                <input class="largecb" type="radio" name="cost" value="1500"><span class="ftext">&#8377; 1000 to &#8377; 1500</span></input><br>
+                                <input class="largecb" type="radio" name="cost" value="2000"><span class="ftext">&#8377; 1500 to &#8377; 2000</span></input><br>
+                                <input class="largecb" type="radio" name="cost" value="2000+"><span class="ftext">&#8377; 2000+</span></input><br>
+                        </div>
+                        <div class="filter"><br><br>
+                            <label>Sort</label><br>
+                                <input class="largecb" type="radio" name="north indian"><span class="ftext">Price low to high</span></input><br>
+                                <input class="largecb" type="radio" name="south indian" ><span class="ftext">Price high to low</span></input><br>                               
+                        </div>
+                        <br>            
+                </div>
+                <div class="right">
+                    <div class="section">
+                        <div class="image"><img src="images/photo.jpg" alt="idli"></div>
+                        <div class="description">
+                            <span class="dhead">Mysore Cafe</span><br>
+                            <span class="dh1">Fort</span><br><br>
+                            <span class="dd1">Shop 1,Plot D,SamruddhiComplex, Chincholi...</span>
+                        </div>
+                        <div class="clearfix"></div>
+                        <hr>
+                        <div class="dh2">
+                            <span>CUISINES:</span><br><br>
+                            <span>COST FOR TWO:</span>
+                        </div>
+                        <div class="dd2">
+                            <span>Cafe</span><br><br>
+                            <span>&#8377;700</span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="section">
+                        <div class="image"><img src="images/photo.jpg" alt="idli"></div>
+                        <div class="description">
+                            <span class="dhead">Bakery Bar</span><br>
+                            <span class="dh1">Fort</span><br><br>
+                            <span class="dd1">Shop 1,Plot D,SamruddhiComplex, Chincholi...</span>
+                        </div>
+                        <div class="clearfix"></div>
+                        <hr>
+                        <div class="dh2">
+                            <span>CUISINES:</span><br><br>
+                            <span>COST FOR TWO:</span>
+                        </div>
+                        <div class="dd2">
+                            <span>Bakery</span><br><br>
+                            <span>&#8377;700</span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="btn">
+                        <span>&lt;</span>
+                        <span id="select">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>&gt;</span>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </main>
+        </div>       
+    </body>
+</html>

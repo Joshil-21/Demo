@@ -1,0 +1,197 @@
+#container {
+    background: #fbfbfb ;
+}
+header {
+    width: auto;
+    margin: 0 0 37px;
+    padding: 15px 101px 13px 102px;
+    background-color: #ce0505;
+}
+
+.circle {
+    float: left;
+    width: 52px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+    .e {
+        margin: 10px;  
+        width: 32px;
+        height: 47px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 33px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #eb2929;
+    }
+
+
+
+nav {
+    float: right;
+}
+    nav ul {            
+        list-style: none;
+    }
+
+        nav ul li {
+            float: left;
+            color: #fff;
+            padding: 20px 20px;
+        }
+
+        nav ul span {
+            border: solid 2px #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+.clearfix {
+    clear: both;
+}
+
+.rectangle {
+    width: 512px;
+    height: 51px;
+    margin: 37px 25px 27px 113px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+main {
+    
+    /* height: 973px; */
+    padding: 0 0 88px;
+    background-color: #fbfbfb;
+}
+
+    .left {
+        float: left;
+        width: 260px;
+        /* height: 682px; */
+        margin: 27px 45px 8px 103px;
+        padding: 17px 25px 31px 26px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #fff;
+    }
+
+        h1{
+            color: #192f60;
+            font-weight: bold;
+        }
+        #dropdown {
+            height: 40px;
+            width: 250px;
+            color: #192f60;
+            font-weight: bold;
+            margin: 5px 0;
+            
+        }
+        .filter label{
+            color: #192f60;
+            width: 106px;
+            height: 40px;
+            font-weight: bold;
+            font-size: larger;
+        }
+       
+        input.largecb {
+            height: 15px;
+            width: 15px;
+            margin: 8px 2px 8px 2px;            
+        }
+        .ftext {
+            color: #8c96ab;
+            font-size: larger;
+        }
+    .right {
+        float: right;
+    }
+
+    .section {
+        width: 640px;
+        height: 291px;
+        margin: 27px 50px 34px 45px;
+        padding: 25px 32.6px 20px 35px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #fff;
+    }
+        .image {
+            float: left;
+            margin: 10px;  
+                      
+        }
+        .image img {
+            border-radius: 30px;
+            height: 130px;
+            width: 130px;
+        }
+        .description{
+            float: left;
+            width: 400px;
+            margin: 10px 10px 10px 20px;
+        }
+        .dhead{
+            font-size: 45px;
+            color: #192f60;
+            font-weight: bold;
+        }
+        .dh1 {
+            font-size: 25px;
+            color: #192f60;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .dd1 {
+            font-size: 20px;
+            color: #636f88;            
+        }
+        hr {
+            border: solid 1px #dedfe5;
+        }
+        .dh2 {
+            float: left;
+            height: 140px;
+            width: 200px;
+            color: #636f88;
+            font-size: 20px;
+            margin: 30px 20px;
+        }
+        
+        .dd2 {
+            float: left;
+            color: #192f60;
+            font-size: 20px;
+            margin: 30px 10px;
+        }
+    .btn{
+        
+    
+    }
+     
+    .btn span {
+        width: 36px;
+        height: 36px;
+        margin: 0 1px 0 0;
+        padding: 10.2px 13.5px 9.5px 12.3px;
+        opacity: 0.4;
+        border-radius: 7px;
+        border: solid 1px #8c96ab;
+        background-color: #fff;
+    }
+    .btn #select {
+        background-color: #8c96ab;
+        color: #fff;
+    }
